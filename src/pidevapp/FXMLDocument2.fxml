@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pidevapp.FXMLDocumentController2">
+    <children>
+      <ImageView fitHeight="599.0" fitWidth="1025.0" layoutX="-1.0">
+         <image>
+            <Image url="@png-transparent-digital-marketing-promotional-mix-marketing-mix-promotion-text-logo-computer-wallpaper.png" />
+         </image>
+      </ImageView>
+        <Label fx:id="label" layoutX="14.0" layoutY="200.0" minHeight="16" minWidth="23.0" prefHeight="25.0" prefWidth="131.0" text="Promotion" />
+      <Label fx:id="labelAffiche" layoutX="425.0" layoutY="140.0" prefHeight="300.0" prefWidth="600.0" />
+      <TextField fx:id="tfmsg" layoutX="101.0" layoutY="282.0" prefHeight="37.0" prefWidth="234.0" text="" />
+      
+            <TextField fx:id="idd" layoutX="102.0" layoutY="194.0" prefHeight="37.0" prefWidth="234.0" text="" />
+
+      <Button layoutX="95.0" layoutY="361.0" mnemonicParsing="false" onAction="#ajouterpromotion" prefHeight="25.0" prefWidth="63.0" text="Ajouter" />
+      <Button layoutX="168.0" layoutY="361.0" mnemonicParsing="false" onAction="#supprimerpromotion" text="Supprimer " />
+      <Button layoutX="254.0" layoutY="362.0" mnemonicParsing="false" onAction="#modifierpromotion" prefHeight="25.0" prefWidth="75.0" text="Modifier" />
+      <Button layoutX="501.0" layoutY="438.0" mnemonicParsing="false" onAction="#afficherpromotion" prefHeight="25.0" prefWidth="75.0" text="Afficher" />
+      <Label fx:id="label1" layoutX="18.0" layoutY="281.0" minHeight="16" minWidth="23.0" prefHeight="25.0" prefWidth="75.0" text="Value" />
+      <Label fx:id="labelAffiche1" layoutX="378.0" layoutY="123.0" prefHeight="300.0" prefWidth="600.0" />
+      <Label fx:id="label2" layoutX="221.0" minHeight="16" minWidth="23.0" prefHeight="136.0" prefWidth="424.0" text="Promotion">
+         <font>
+            <Font name="Bell MT" size="69.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

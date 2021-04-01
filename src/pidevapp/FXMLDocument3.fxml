@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pidevapp.FXMLDocumentController3">
+    <children>
+        <Label fx:id="label" layoutX="14.0" layoutY="200.0" minHeight="16" minWidth="23.0" prefHeight="25.0" prefWidth="131.0" text="Id subscribe" />
+      <Label fx:id="labelAffiche" layoutX="425.0" layoutY="140.0" prefHeight="300.0" prefWidth="600.0" />
+      <TextField fx:id="tfmsg" layoutX="101.0" layoutY="380.0" prefHeight="37.0" prefWidth="234.0" text="" />
+      
+            <TextField fx:id="idd" layoutX="102.0" layoutY="194.0" prefHeight="37.0" prefWidth="234.0" text="" />
+
+      <Button layoutX="95.0" layoutY="472.0" mnemonicParsing="false" onAction="#ajoutersubscribe" prefHeight="25.0" prefWidth="63.0" text="Ajouter" />
+      <Button layoutX="168.0" layoutY="472.0" mnemonicParsing="false" onAction="#supprimersubscribe" text="Supprimer " />
+      <Button layoutX="254.0" layoutY="473.0" mnemonicParsing="false" onAction="#modifiersubscribe" prefHeight="25.0" prefWidth="75.0" text="Modifier" />
+      <Button layoutX="501.0" layoutY="438.0" mnemonicParsing="false" onAction="#affichersubscribe" prefHeight="25.0" prefWidth="75.0" text="Afficher" />
+      <Label fx:id="label1" layoutX="18.0" layoutY="379.0" minHeight="16" minWidth="23.0" prefHeight="25.0" prefWidth="75.0" text="Mail" />
+      <Label fx:id="labelAffiche1" layoutX="373.0" layoutY="123.0" prefHeight="300.0" prefWidth="600.0" />
+      <Label fx:id="label2" layoutX="221.0" minHeight="16" minWidth="23.0" prefHeight="136.0" prefWidth="424.0" text="Subscribe">
+         <font>
+            <Font name="Bell MT" size="69.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="10.0" layoutY="247.0" minHeight="16" minWidth="23.0" prefHeight="25.0" prefWidth="131.0" text="Nom" />
+      <Label fx:id="label4" layoutX="13.0" layoutY="303.0" minHeight="16" minWidth="23.0" prefHeight="25.0" prefWidth="131.0" text="Prenom" />
+      <TextField fx:id="idd1" layoutX="100.0" layoutY="243.0" prefHeight="37.0" prefWidth="234.0" text="" />
+      <TextField fx:id="idd2" layoutX="95.0" layoutY="295.0" prefHeight="37.0" prefWidth="234.0" text="" />
+    </children>
+</AnchorPane>
